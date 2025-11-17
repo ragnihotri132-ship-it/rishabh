@@ -1,0 +1,16 @@
+{
+    "name": "rishabh/module-maker",
+    "description": "Laravel module generator",
+    "autoload": {
+        "psr-4": {
+            "Rishabh\\ModuleMaker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rishabh\\ModuleMaker\\ModuleMakerServiceProvider"
+            ]
+        }
+    }
+}
