@@ -8,11 +8,5 @@
             "Webkul\\User\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Webkul\\User\\Providers\\UserServiceProvider"
-            ]
-        }
-    }
+    
 }
