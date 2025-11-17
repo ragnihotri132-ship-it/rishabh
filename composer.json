@@ -1,15 +1,17 @@
 {
     "name": "rishabh/module-maker",
     "description": "Laravel module generator",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Rishabh\\ModuleMaker\\": "src/"
+            "Webkul\\User\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Rishabh\\ModuleMaker\\ModuleMakerServiceProvider"
+                "Webkul\\User\\Providers\\UserServiceProvider"
             ]
         }
     }
